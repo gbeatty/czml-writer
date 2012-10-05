@@ -20,7 +20,7 @@ public abstract class CesiumPropertyWriter<TDerived extends CesiumPropertyWriter
 	private String m_propertyName;
 	private Lazy<CesiumIntervalListWriter<TDerived>> m_multipleIntervals;
 	private Lazy<TDerived> m_interval;
-	private ElementType m_elementType = ElementType.PROPERTY;
+	protected ElementType m_elementType = ElementType.PROPERTY;
 
 	static private enum ElementType implements Enumeration {
 		PROPERTY(0), INTERVAL(1), PROPERTY_CONVERTED_TO_INTERVAL(2);
