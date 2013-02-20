@@ -1,0 +1,32 @@
+{
+    "title": "VideoMaterial",
+    "description": "A material that fills the surface with a video.",
+    "type": ["array", "object"],
+    "items": { "$ref": "#" },
+    "properties": {
+        "video": {
+            "$ref": "Video.jsonschema",
+            "description": "The video to display on the surface."
+        },
+        "horizontalRepeat": {
+            "$ref": "Double.jsonschema",
+            "description": "The number of times the video is repeated horizontally."
+        },
+        "verticalRepeat": {
+            "$ref": "Double.jsonschema",
+            "description": "The number of times the video is repeated vertically."
+        },
+        "startTime": {
+            "$ref": "Time.jsonschema",
+            "description": "The start time of the video."
+        },
+        "loop": {
+            "$ref": "Boolean.jsonschema",
+            "description": "If true, the video will loop, if false the first or last frame will be displayed when outside the bounds of the video."
+        },
+        "speed": {
+            "$ref": "Double.jsonschema",
+            "description": "The speed at which the video should play."
+        }
+    }
+}
