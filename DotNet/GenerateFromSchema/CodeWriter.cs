@@ -35,7 +35,7 @@ namespace GenerateFromSchema
             m_indentString = new String(' ', m_indent * Indentation);
         }
 
-        public void DecreateIndent()
+        public void DecreaseIndent()
         {
             --m_indent;
             m_indentString = new String(' ', m_indent * Indentation);
@@ -49,7 +49,7 @@ namespace GenerateFromSchema
 
         public void CloseScope()
         {
-            DecreateIndent();
+            DecreaseIndent();
             WriteLine("}}");
         }
 

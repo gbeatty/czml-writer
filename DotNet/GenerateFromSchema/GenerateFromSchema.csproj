@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CodeWriter.cs" />
+    <Compile Include="CppGenerator.cs" />
     <Compile Include="CSharpGenerator.cs" />
     <Compile Include="GenerateFromSchema.cs" />
     <Compile Include="Generator.cs" />
@@ -51,6 +52,9 @@
     <Compile Include="StringHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="GenerateCpp.config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="GenerateCSharp.config.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

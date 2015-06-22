@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{a5b41fa1-7f20-4f5b-8a33-83eddc150814}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Generated\AlignedAxisCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\BillboardCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\BooleanCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\CesiumWriterIncludes.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\ClockCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\ColorCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\ConicSensorCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\CustomPatternSensorCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\DirectionCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\DirectionListCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\DoubleCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\EllipseCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\EllipsoidCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\EllipsoidRadiiCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\EyeOffsetCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\FanCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\FontCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\GridMaterialCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\HorizontalOriginCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\ImageMaterialCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\LabelCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\LabelStyleCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\LineCountCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\LineOffsetCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\LineThicknessCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\MaterialCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\ModelCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\OrientationCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\PacketCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\PathCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\PixelOffsetCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\PointCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\PolygonCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\PolylineCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\PolylineGlowMaterialCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\PolylineMaterialCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\PolylineOutlineMaterialCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\PositionCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\PositionListCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\RectangularSensorCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\RepeatCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\SensorVolumePortionToDisplayCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\SolidColorMaterialCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\StringCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\StripeMaterialCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\StripeOrientationCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\UriCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\VectorCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\VerticalOriginCesiumWriter.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="CesiumInterpolatablePropertyWriter.hpp" />
+    <ClInclude Include="ICesiumInterpolationInformationWriter.hpp" />
+    <ClInclude Include="CesiumPropertyWriter.hpp" />
+    <ClInclude Include="ICesiumPropertyWriter.hpp" />
+    <ClInclude Include="ICesiumElementWriter.hpp" />
+    <ClInclude Include="Iso8601Format.hpp" />
+    <ClInclude Include="TimeInterval.hpp" />
+    <ClInclude Include="JulianDate.hpp" />
+    <ClInclude Include="TimeStandard.hpp" />
+    <ClInclude Include="TimeConstants.hpp" />
+    <ClInclude Include="LeapSeconds.hpp" />
+    <ClInclude Include="LeapSecond.hpp" />
+    <ClInclude Include="DateTime.hpp" />
+    <ClInclude Include="GregorianDate.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TimeConstants.cpp" />
+    <ClCompile Include="GregorianDate.cpp" />
+  </ItemGroup>
+</Project>

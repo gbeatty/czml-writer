@@ -35,6 +35,17 @@ namespace GenerateFromSchema
                         generator = new CSharpGenerator(output, configurationFileName);
                     }
                     break;
+                case "cpp":
+                    {
+                        if (args.Length < 4)
+                        {
+                            PrintUsage();
+                            return;
+                        }
+                        string configurationFileName = args[3];
+                        generator = new CppGenerator(output, configurationFileName);
+                    }
+                    break;
                 default:
                     PrintUsage();
                     return;
@@ -53,6 +64,7 @@ namespace GenerateFromSchema
             Console.WriteLine("Usage:");
             Console.WriteLine("\tGenerateWritersFromSchema <schema> markdown <outputFile>");
             Console.WriteLine("\tGenerateWritersFromSchema <schema> csharp <outputDirectory> <configurationFileName>");
+            Console.WriteLine("\tGenerateWritersFromSchema <schema> cpp <outputDirectory> <configurationFileName>");
         }
     }
 }

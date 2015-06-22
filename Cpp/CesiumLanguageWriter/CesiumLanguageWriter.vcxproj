@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CesiumInterpolatablePropertyWriter.hpp" />
+    <ClInclude Include="CesiumPropertyWriter.hpp" />
+    <ClInclude Include="DateTime.hpp" />
+    <ClInclude Include="Generated\AlignedAxisCesiumWriter.hpp" />
+    <ClInclude Include="Generated\BillboardCesiumWriter.hpp" />
+    <ClInclude Include="Generated\BooleanCesiumWriter.hpp" />
+    <ClInclude Include="Generated\CesiumWriterIncludes.hpp" />
+    <ClInclude Include="Generated\ClockCesiumWriter.hpp" />
+    <ClInclude Include="Generated\ColorCesiumWriter.hpp" />
+    <ClInclude Include="Generated\ConicSensorCesiumWriter.hpp" />
+    <ClInclude Include="Generated\CustomPatternSensorCesiumWriter.hpp" />
+    <ClInclude Include="Generated\DirectionCesiumWriter.hpp" />
+    <ClInclude Include="Generated\DirectionListCesiumWriter.hpp" />
+    <ClInclude Include="Generated\DoubleCesiumWriter.hpp" />
+    <ClInclude Include="Generated\EllipseCesiumWriter.hpp" />
+    <ClInclude Include="Generated\EllipsoidCesiumWriter.hpp" />
+    <ClInclude Include="Generated\EllipsoidRadiiCesiumWriter.hpp" />
+    <ClInclude Include="Generated\EyeOffsetCesiumWriter.hpp" />
+    <ClInclude Include="Generated\FanCesiumWriter.hpp" />
+    <ClInclude Include="Generated\FontCesiumWriter.hpp" />
+    <ClInclude Include="Generated\GridMaterialCesiumWriter.hpp" />
+    <ClInclude Include="Generated\HorizontalOriginCesiumWriter.hpp" />
+    <ClInclude Include="Generated\ImageMaterialCesiumWriter.hpp" />
+    <ClInclude Include="Generated\LabelCesiumWriter.hpp" />
+    <ClInclude Include="Generated\LabelStyleCesiumWriter.hpp" />
+    <ClInclude Include="Generated\LineCountCesiumWriter.hpp" />
+    <ClInclude Include="Generated\LineOffsetCesiumWriter.hpp" />
+    <ClInclude Include="Generated\LineThicknessCesiumWriter.hpp" />
+    <ClInclude Include="Generated\MaterialCesiumWriter.hpp" />
+    <ClInclude Include="Generated\ModelCesiumWriter.hpp" />
+    <ClInclude Include="Generated\OrientationCesiumWriter.hpp" />
+    <ClInclude Include="Generated\PacketCesiumWriter.hpp" />
+    <ClInclude Include="Generated\PathCesiumWriter.hpp" />
+    <ClInclude Include="Generated\PixelOffsetCesiumWriter.hpp" />
+    <ClInclude Include="Generated\PointCesiumWriter.hpp" />
+    <ClInclude Include="Generated\PolygonCesiumWriter.hpp" />
+    <ClInclude Include="Generated\PolylineCesiumWriter.hpp" />
+    <ClInclude Include="Generated\PolylineGlowMaterialCesiumWriter.hpp" />
+    <ClInclude Include="Generated\PolylineMaterialCesiumWriter.hpp" />
+    <ClInclude Include="Generated\PolylineOutlineMaterialCesiumWriter.hpp" />
+    <ClInclude Include="Generated\PositionCesiumWriter.hpp" />
+    <ClInclude Include="Generated\PositionListCesiumWriter.hpp" />
+    <ClInclude Include="Generated\RectangularSensorCesiumWriter.hpp" />
+    <ClInclude Include="Generated\RepeatCesiumWriter.hpp" />
+    <ClInclude Include="Generated\SensorVolumePortionToDisplayCesiumWriter.hpp" />
+    <ClInclude Include="Generated\SolidColorMaterialCesiumWriter.hpp" />
+    <ClInclude Include="Generated\StringCesiumWriter.hpp" />
+    <ClInclude Include="Generated\StripeMaterialCesiumWriter.hpp" />
+    <ClInclude Include="Generated\StripeOrientationCesiumWriter.hpp" />
+    <ClInclude Include="Generated\UriCesiumWriter.hpp" />
+    <ClInclude Include="Generated\VectorCesiumWriter.hpp" />
+    <ClInclude Include="Generated\VerticalOriginCesiumWriter.hpp" />
+    <ClInclude Include="GregorianDate.hpp" />
+    <ClInclude Include="ICesiumElementWriter.hpp" />
+    <ClInclude Include="ICesiumInterpolationInformationWriter.hpp" />
+    <ClInclude Include="ICesiumPropertyWriter.hpp" />
+    <ClInclude Include="Iso8601Format.hpp" />
+    <ClInclude Include="JulianDate.hpp" />
+    <ClInclude Include="LeapSecond.hpp" />
+    <ClInclude Include="LeapSeconds.hpp" />
+    <ClInclude Include="TimeConstants.hpp" />
+    <ClInclude Include="TimeInterval.hpp" />
+    <ClInclude Include="TimeStandard.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GregorianDate.cpp" />
+    <ClCompile Include="TimeConstants.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7DE5486D-A498-471D-81E7-B6FDD54FDFF9}</ProjectGuid>
+    <RootNamespace>CesiumLanguageWriter</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
